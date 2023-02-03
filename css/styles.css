@@ -1,0 +1,159 @@
+/* Typography */
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+
+    font-weight: bold;
+    padding: 0.1em;
+    border-radius: 2em;
+    color: blue;
+    margin-bottom: 1em;
+}
+
+
+ol {
+    background-color: rgb(145, 141, 141);
+    padding: 2em;
+    border-radius: 2em;
+
+}
+
+ol li {
+    margin: 1em;
+
+}
+
+/*gold, silver and bronze*/
+
+ol li:nth-child(1) {
+    color: gold;
+}
+
+ol li:nth-child(2) {
+    color: rgb(210, 207, 207);
+}
+
+ol li:nth-child(3) {
+    color: rgb(164, 123, 9);
+}
+
+ul {
+    display: flex;
+    background-color: gray;
+    border-radius: 1em;
+}
+
+ul li {
+    margin: 1.5em;
+}
+
+ul li:nth-of-type(odd) {
+    background-color: rgb(237, 7, 237);
+    padding: 0.3em;
+    border-radius: 1em;
+}
+
+ul li:nth-of-type(even) {
+    background-color: black;
+    color: wheat;
+    padding: 0.3em;
+    border-radius: 1em;
+}
+
+a:hover {
+    color: #bc5f18;
+}
+
+nav a {
+    background-color: #F5F5DC;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 1em;
+    color: #fff;
+    font-style: none;
+    padding: 0.4em;
+
+}
+
+nav a:visited,
+nav a:focus {
+    background-color: #a505a0d8;
+    border-radius: 10px;
+    color: #0bd9ef;
+
+}
+
+
+nav a:hover {
+    background-color: #bc5f18;
+    color: #fff;
+
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    gap: 32px;
+}
+
+img {
+    max-height: 300px;
+    width: auto;
+}
+
+main section {
+    padding: 60px 20px 0 20px;
+}
+
+/*background set up for the table */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #F2f1f1;
+    font-size: 14px;
+}
+
+
+th,
+td {
+    padding: 15px;
+}
+
+thead th {
+
+    font-size: 16px;
+}
+
+tbody tr td:nth-of-type(2),
+tbody tr td:nth-of-type(3) {
+    text-align: center;
+}
+
+/*zebra layout*/
+
+tbody tr:nth-of-type(odd) {
+    background-color: #F2f1f1;
+
+}
